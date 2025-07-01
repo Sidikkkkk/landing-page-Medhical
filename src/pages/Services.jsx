@@ -1,10 +1,10 @@
 import React from "react";
-import CardServices from "../components/cardService";
+import CardServices from "../components/CardService";
 import { dataServices } from "../data/dataServices";
 
 const Services = () => {
   return (
-    <section className="bg-[#fafeff] pb-20 pt-20 px-4">
+    <section className="bg-[#fafeff] py-20 px-4">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex flex-col gap-6 items-start">
           <span className="relative pl-6 inline-block text-sm font-semibold text-blue-600 before:absolute before:content-[''] before:h-5 before:w-[2px] before:bg-blue-600 before:left-0 before:top-1/2 before:-translate-y-1/2">

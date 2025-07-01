@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="beranda"
-      className="min-h-screen bg-[#fafeff] pb-12 px-4"
+      className="bg-[#fafeff] py-20 px-4"
     >
       <div className="mx-auto grid lg:grid-cols-2 gap-12 items-center lg:max-w-[1200px]">
         {/* Left - Text */}
@@ -18,7 +18,7 @@ const Hero = () => {
             Advanced <br /> Healthcare <br /> Services for All
           </h1>
 
-          <p className="text-[#9fa1a1] text-base sm:text-lg">
+          <p className="text-[#9fa1a1] max-w-[85%] text-base sm:text-lg">
             Kami memberikan layanan medis profesional dengan teknologi modern
             dan dokter terbaik.
           </p>

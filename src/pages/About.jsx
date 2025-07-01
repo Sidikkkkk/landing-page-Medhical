@@ -3,13 +3,13 @@ import { CheckCircle } from "lucide-react";
 
 const About = () => {
   return (
-    <section className="min-h-screen bg-[#f5f8fa] pt-20 pb-20 px-4">
+    <section className="bg-[#f5f8fa] py-20 px-4">
       <div className="mx-auto grid lg:grid-cols-2 max-w-[1200px] gap-16 items-center">
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-4">
           <div className="relative">
             <span className="flex gap-2 items-center absolute py-2 bg-white px-4 bottom-7 ml-8 text-[16px] rounded-[4px]">
               <CheckCircle className="w-5 h-5 text-blue-600" />
-              Exper Doctors
+              Expert Doctors
             </span>
             <img
               src="/doctor-hospital.jpg"

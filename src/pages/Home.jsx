@@ -11,7 +11,7 @@ import Cta from "./Cta.jsx";
 
 export default function Home() {
   return (
-    <main className="pt-[60px]">
+    <main className="pt-[20px]">
       <Hero />
       <About />
       <Services />
